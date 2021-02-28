@@ -1,10 +1,8 @@
 import * as React from "react";
-import Header from "../components/Header";
 
 const IndexPage = () => {
   return (
     <>
-      <Header />
       <main className="prose">
         <h2>Hello world!</h2>
         <h3>A Subheading ...</h3>
