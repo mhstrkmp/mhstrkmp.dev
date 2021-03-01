@@ -1,0 +1,35 @@
+{
+  "title": "projects",
+  "content": [
+    {
+      "title": "Blue Collar Rocket",
+      "description": "I built this as a capstone project of my web development boot camp. Blue Collar Rocket is an React app to streamline processes in craftsmanship.",
+      "url": "https://github.com/mhstrkmp/blue-collar-rocket",
+      "tags": [
+        "React",
+        "JavaScript",
+        "Styled Components",
+        "MongoDB",
+        "Storybook"
+      ]
+    },
+    {
+      "title": "This Website",
+      "description": "I developed this website with Gatsby and Tailwind as I wanted to learn more about the JAMstack. I like the concept of sharing knowledge and learning in public therefore I implemented a blog.",
+      "url": "https://www.muenzeronline.de/",
+      "tags": ["HTML", "CSS", "JavaScript", "WordPress", "Chimpify"]
+    },
+    {
+      "title": "LIFE-AHEAD.ORG",
+      "description": "This website is also a personal project. The goal of this project is to start a non-profit organization to help parents in grief. Therefore we already ran successfully a crowdfunding campaign. I develepod this website first in WordPress and migrated it later to Chimpify",
+      "url": "https://www.life-ahead.org/",
+      "tags": ["HTML", "CSS", "JavaScript", "WordPress", "Chimpify"]
+    },
+    {
+      "title": "Relaunch M. Münzer GmbH",
+      "description": "Redesign and relaunch of the companys website. Existing content from the old WordPress site was migrated to the new website.",
+      "url": "https://www.muenzeronline.de/",
+      "tags": ["HTML", "CSS", "JavaScript", "WordPress", "Chimpify"]
+    }
+  ]
+}

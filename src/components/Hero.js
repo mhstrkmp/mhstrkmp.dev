@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "gatsby";
 
 const Hero = () => {
   return (
@@ -16,12 +15,14 @@ const Hero = () => {
       <div className="space-y-2">
         <h1>
           Hey, I&apos;m Matthias (
-          <Link
+          <a
             className="text-indigo-500 hover:text-indigo-400"
-            to="https://twitter.com/mhstrkmp"
+            href="https://twitter.com/mhstrkmp"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             @mhstrkmp
-          </Link>
+          </a>
           )
         </h1>
         <p className="text-xl xl:text-3xl xl:leading-snug">
@@ -30,13 +31,15 @@ const Hero = () => {
             <span>Germany</span>
           </span>{" "}
           creating websites &amp; apps using
-          <Link
-            to="https://reactjs.org/"
-            classNameName="font-semibold text-indigo-600 dark:text-indigo-500 hover:text-indigo-400"
+          <a
+            href="https://reactjs.org/"
+            className="font-semibold text-indigo-600 dark:text-indigo-500 hover:text-indigo-400"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             {" "}
             React
-          </Link>{" "}
+          </a>{" "}
           currently looking for new opportunities
         </p>
       </div>
