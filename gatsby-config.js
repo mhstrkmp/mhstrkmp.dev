@@ -6,6 +6,14 @@ module.exports = {
     "gatsby-plugin-postcss",
     "gatsby-plugin-sitemap",
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `markdown-pages`,
+        path: `${__dirname}/src/content/posts`,
+      },
+    },
+    `gatsby-transformer-remark`,
+    {
       resolve: "gatsby-plugin-robots-txt",
       options: {
         host: "https://mhstrkmp.dev",

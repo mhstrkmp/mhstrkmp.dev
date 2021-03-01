@@ -1,4 +1,4 @@
-import * as React from "react";
+import React from "react";
 import Hero from "../components/Hero";
 import ProjectListItem from "../components/ProjectListItem";
 import projects from "../content/Projects.json";
