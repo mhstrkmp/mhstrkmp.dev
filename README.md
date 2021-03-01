@@ -1,6 +1,6 @@
 # [mhstrkmp.dev](https://mhstrkmp-dev-v2.vercel.app/)
 
-This is the source for my personal website and blog [mhstrkmp.dev](https://mhstrkmp.dev).
+This is the source for my personal website and blog [mhstrkmp.dev](https://mhstrkmp-dev-v2.vercel.app/).
 
 ## Tech Stack
 
