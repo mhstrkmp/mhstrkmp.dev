@@ -1,7 +1,7 @@
 ---
-slug: "/blog/my-first-post"
+slug: "/blog/my-second-post"
 date: "2020-02-11"
-title: "My first blog post"
+title: "My third blog post"
 description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
 tags: ["Label", "Label", "Label", "Label"]
 ---

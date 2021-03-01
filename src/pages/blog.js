@@ -1,24 +1,32 @@
 import React from "react";
-import { graphql, Link } from "gatsby";
+import { graphql } from "gatsby";
+import PostListItem from "../components/PostListItem";
 
 const BlogPage = ({ data }) => {
   const { edges: posts } = data.allMarkdownRemark;
   return (
-    <article>
+    <main>
       {posts
         .filter((post) => post.node.frontmatter.title.length > 0)
         .map(({ node: post }) => {
           return (
-            <aside key={post.id}>
+            <>
+              <PostListItem post={post} />
+            </>
+            /* 
+
+            <article key={post.id}>
               <h1>
                 <Link to={post.frontmatter.slug}>{post.frontmatter.title}</Link>
               </h1>
               <h2>{post.frontmatter.date}</h2>
               <p>{post.excerpt}</p>
-            </aside>
+            </article>
+
+ */
           );
         })}
-    </article>
+    </main>
   );
 };
 
@@ -33,6 +41,8 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             slug
             title
+            description
+            tags
           }
         }
       }
