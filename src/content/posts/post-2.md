@@ -1,6 +1,6 @@
 ---
 slug: "/blog/my-second-post"
-date: "2020-02-11"
+date: "2020-02-12"
 title: "My second blog post"
 description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
 tags: ["Label", "Label", "Label", "Label"]

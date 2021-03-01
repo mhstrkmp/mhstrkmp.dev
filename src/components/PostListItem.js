@@ -2,16 +2,12 @@ import React from "react";
 import { Link } from "gatsby";
 
 const PostListItem = ({ post }) => {
-  console.log(post);
-
   return (
     <article className="relative inline-block p-4 text-gray-900 rounded-md outline-none group hover:bg-gray-100 hover:text-gray-700 focus:bg-gray-100 focus:shadow-sm focus:text-gray-700">
       {/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
       <Link
         to={post.frontmatter.slug}
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="link to project"
+        aria-label={`link to blog post ${post.frontmatter.title}`}
         className="absolute top-0 bottom-0 left-0 right-0"
       ></Link>
       <div className="relative z-10 space-y-4 pointer-events-none xl:space-y-0 xl:grid xl:grid-cols-4 xl:col-gap-6">
@@ -43,6 +39,14 @@ const PostListItem = ({ post }) => {
             />
           </div>
           <div>
+            <dl>
+              <dt className="sr-only">Published on</dt>
+              <dd className="text-base font-medium leading-6 text-time font-source-sans-pro">
+                <time dateTime={post.frontmatter.date}>
+                  {post.frontmatter.date}
+                </time>
+              </dd>
+            </dl>
             <ul className="flex flex-wrap">
               {post.frontmatter.tags.map((tag, index) => {
                 return (

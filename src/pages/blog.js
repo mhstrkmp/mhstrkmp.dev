@@ -9,22 +9,7 @@ const BlogPage = ({ data }) => {
       {posts
         .filter((post) => post.node.frontmatter.title.length > 0)
         .map(({ node: post }) => {
-          return (
-            <>
-              <PostListItem post={post} />
-            </>
-            /* 
-
-            <article key={post.id}>
-              <h1>
-                <Link to={post.frontmatter.slug}>{post.frontmatter.title}</Link>
-              </h1>
-              <h2>{post.frontmatter.date}</h2>
-              <p>{post.excerpt}</p>
-            </article>
-
- */
-          );
+          return <PostListItem key={`post_item${post.id}`} post={post} />;
         })}
     </main>
   );
