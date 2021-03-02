@@ -42,7 +42,7 @@ const PostListItem = ({ post }) => {
           <div>
             <dl>
               <dt className="sr-only">Published on</dt>
-              <dd className="text-base font-medium leading-6 text-time font-source-sans-pro">
+              <dd className="text-base font-medium leading-6">
                 <time dateTime={post.frontmatter.date}>
                   {post.frontmatter.date}
                 </time>

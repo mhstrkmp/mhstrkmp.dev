@@ -40,6 +40,7 @@ const ProjectListItem = ({ project }) => {
             />
           </div>
           <div>
+            <span className="text-base font-medium leading-6">Tech Stack</span>
             <ul className="flex flex-wrap">
               {project.tags.map((tag, index) => {
                 return (
