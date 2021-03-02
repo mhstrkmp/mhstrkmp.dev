@@ -50,7 +50,6 @@ const PostListItem = ({ post }) => {
             </dl>
             <ul className="flex flex-wrap">
               {post.frontmatter.tags.map((tag, index) => {
-                console.log(_.kebabCase(tag));
                 return (
                   <li key={`post_tag${index}`} className="flex-none mt-2 mr-2">
                     <Link
