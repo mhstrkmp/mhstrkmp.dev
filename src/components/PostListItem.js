@@ -1,4 +1,5 @@
 import React from "react";
+import _ from "lodash";
 import { Link } from "gatsby";
 
 const PostListItem = ({ post }) => {
@@ -49,11 +50,15 @@ const PostListItem = ({ post }) => {
             </dl>
             <ul className="flex flex-wrap">
               {post.frontmatter.tags.map((tag, index) => {
+                console.log(_.kebabCase(tag));
                 return (
                   <li key={`post_tag${index}`} className="flex-none mt-2 mr-2">
-                    <span className="inline-block rounded-md px-2 py-1 text-sm font-semibold">
+                    <Link
+                      to={`/tag/${_.kebabCase(tag)}`}
+                      className="pointer-events-auto inline-block rounded-md px-2 py-1 text-sm font-semibold"
+                    >
                       {tag}
-                    </span>
+                    </Link>
                   </li>
                 );
               })}
