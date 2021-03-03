@@ -24,12 +24,12 @@ const PostListItem = ({ post }) => {
           </div>
           <div className="space-y-2">
             <h2>{post.frontmatter.title}</h2>
-            <p className="text-lg tracking-tight text-gray-800 xl:text-lg xl:leading-8 dark:text-gray-100">
+            <p className="text-lg tracking-tight text-gray-800 xl:text-lg xl:leading-8">
               {post.frontmatter.description}
             </p>
           </div>
         </div>
-        <div className="flex items-center pt-4 space-x-6 border-t border-gray-200 dark:group-hover:border-gray-700 dark:border-gray-800 xl:pl-4 xl:pt-0 xl:space-x-0 xl:border-l xl:border-t-0">
+        <div className="flex items-center pt-4 space-x-6 border-t border-gray-200 xl:pl-4 xl:pt-0 xl:space-x-0 xl:border-l xl:border-t-0">
           <div className="inline-block w-12 h-12 xl:hidden">
             <img
               src="https://via.placeholder.com/50"

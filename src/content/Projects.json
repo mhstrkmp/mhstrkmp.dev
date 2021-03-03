@@ -16,8 +16,8 @@
     {
       "title": "This Website",
       "description": "I developed this website with Gatsby and Tailwind as I wanted to learn more about the JAMstack. I like the concept of sharing knowledge and learning in public therefore I implemented a blog.",
-      "url": "https://www.muenzeronline.de/",
-      "tags": ["HTML", "CSS", "JavaScript", "WordPress", "Chimpify"]
+      "url": "https://github.com/mhstrkmp/mhstrkmp.dev",
+      "tags": ["Gatsby", "Tailwind", "JavaScript", "HTML", "CSS"]
     },
     {
       "title": "LIFE-AHEAD.ORG",

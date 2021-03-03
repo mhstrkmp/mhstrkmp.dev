@@ -33,7 +33,7 @@ const Hero = () => {
           creating websites &amp; apps using
           <a
             href="https://reactjs.org/"
-            className="font-semibold text-indigo-600 dark:text-indigo-500 hover:text-indigo-400"
+            className="font-semibold text-indigo-600 hover:text-indigo-400"
             target="_blank"
             rel="noopener noreferrer"
           >
