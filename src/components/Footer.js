@@ -4,8 +4,8 @@ const today = new Date();
 
 const Footer = () => {
   return (
-    <footer className="py-8">
-      <div className="container text-center rw-full mx-auto">
+    <footer className="py-8 mt-12">
+      <div className="container text-center w-full mx-auto">
         <div className="flex flex-wrap justify-center space-x-4">
           <a
             className="px-4 py-2 font-semibold"

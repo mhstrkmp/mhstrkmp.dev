@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col items-center justify-center p-6 mx-4 space-y-4 bg-gray-100 rounded-lg shadow-sm md:mx-0 md:space-x-8 xl:p-12 md:space-y-0 md:flex-row ">
+    <div className="h-screen w-full flex flex-col items-center justify-center p-6 mx-4 space-y-4 md:mx-0 md:space-x-8 xl:p-12 md:space-y-0 md:flex-row ">
       <picture className="relative flex-none w-40 h-40 rounded-full shadow-xl md:h-44 md:w-44">
         <img
           className="absolute flex-none object-cover w-40 h-40 rounded-full md:h-44 md:w-44"
@@ -25,7 +25,7 @@ const Hero = () => {
           </a>
           )
         </h1>
-        <p className="text-xl xl:text-3xl xl:leading-snug">
+        <p className="text-2xl xl:text-3xl xl:leading-snug">
           I am a <strong className="font-bold">Web Developer</strong> from{" "}
           <span aria-label="Germany">
             <span>Germany</span>

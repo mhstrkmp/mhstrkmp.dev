@@ -3,6 +3,7 @@ import React from "react";
 const ProjectListItem = ({ project }) => {
   return (
     <article className="relative inline-block flex flex-col justify-between p-4 text-gray-900 rounded-md outline-none group hover:bg-gray-100 hover:text-gray-700 focus:bg-gray-100 focus:shadow-sm focus:text-gray-700">
+      {/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
       <a
         href={project.url}
         target="_blank"

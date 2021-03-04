@@ -2,10 +2,10 @@ import * as React from "react";
 
 const AboutPage = () => {
   return (
-    <>
-      <main className="prose">
-        <h2>Hello world!</h2>
-        <h3>A Subheading ...</h3>
+    <main className="flex justify-center items-center">
+      <article className="prose">
+        <h1>Hello world!</h1>
+        <h2>A Subheading ...</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
           architecto ullam nihil soluta ab possimus! Aliquid obcaecati ea, eum a
@@ -48,8 +48,8 @@ const AboutPage = () => {
           magni. Tenetur, omnis odio impedit asperiores, ipsum, ratione libero
           eligendi doloribus quisquam delectus ea!
         </p>
-      </main>
-    </>
+      </article>
+    </main>
   );
 };
 
