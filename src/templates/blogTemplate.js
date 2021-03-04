@@ -5,7 +5,7 @@ export default function Template({ data }) {
   const { markdownRemark } = data;
   const { frontmatter, html } = markdownRemark;
   return (
-    <main className="flex justify-center items-center">
+    <main className="flex justify-center items-center px-8">
       <article className="prose">
         <h1>{frontmatter.title}</h1>
         <h2>
