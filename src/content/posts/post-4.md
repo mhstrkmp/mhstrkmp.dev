@@ -1,5 +1,5 @@
 ---
-slug: "/blog/my-second-post"
+slug: "/blog/my-fourth-post"
 date: "2020-02-16"
 title: "My fourth blog post"
 description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."

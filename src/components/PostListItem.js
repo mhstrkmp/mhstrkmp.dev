@@ -14,8 +14,8 @@ const PostListItem = ({ post }) => {
       <div className="relative z-10 space-y-4 pointer-events-none xl:space-y-0 xl:grid xl:grid-cols-4 xl:col-gap-6">
         <div className="flex items-center pr-4 xl:space-x-6 xl:pb-0 xl:col-span-3">
           <div className="space-y-2">
-            <h2>{post.frontmatter.title}</h2>
-            <p className="text-lg tracking-tight text-gray-800 xl:text-lg xl:leading-8">
+            <h2 className="text-purple-800">{post.frontmatter.title}</h2>
+            <p className="text-base tracking-tight text-gray-800 xl:text-lg xl:leading-8">
               {post.frontmatter.description}
             </p>
           </div>
@@ -24,7 +24,7 @@ const PostListItem = ({ post }) => {
           <div>
             <dl>
               <dt className="sr-only">Published on</dt>
-              <dd className="text-base font-small leading-4">
+              <dd className="text-sm leading-4">
                 <time dateTime={post.frontmatter.date}>
                   {post.frontmatter.date}
                 </time>

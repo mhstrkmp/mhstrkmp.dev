@@ -6,11 +6,11 @@ export default function Template({ data }) {
   const { frontmatter, html } = markdownRemark;
   return (
     <main className="flex justify-center items-center px-8">
-      <article className="prose">
-        <h1>{frontmatter.title}</h1>
-        <h2>
+      <article className="container prose">
+        <span>
           <time dateTime={frontmatter.date}>{frontmatter.date}</time>
-        </h2>
+        </span>
+        <h1>{frontmatter.title}</h1>
         <div dangerouslySetInnerHTML={{ __html: html }} />
       </article>
     </main>

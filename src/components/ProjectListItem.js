@@ -11,7 +11,7 @@ const ProjectListItem = ({ project }) => {
         aria-label="link to project"
         className="absolute top-0 bottom-0 left-0 right-0"
       ></a>
-      <div className="relative z-10 flex flex-col md:flex-row justify-center items-center pointer-events-none">
+      <div className="relative z-10 space-x-4 flex flex-col md:flex-row justify-center items-center pointer-events-none">
         <img
           src="https://via.placeholder.com/200x150"
           height={150}
@@ -20,11 +20,13 @@ const ProjectListItem = ({ project }) => {
           className="object-contain"
         />
         <div className="w-80 h-auto md:w-auto md:max-w-4 px-4 py-4">
-          <h2 className="text-center font-bold pb-1">{project.title}</h2>
-          <p className="text-lg tracking-tight text-gray-800">
+          <h2 className="text-center md:text-left font-bold pb-1">
+            {project.title}
+          </h2>
+          <p className="text-left text-lg tracking-tight text-gray-800">
             {project.description}
           </p>
-          <ul className="flex justify-center flex-wrap">
+          <ul className="flex justify-center md:justify-start flex-wrap">
             {project.tags.map((tag, index) => {
               return (
                 <li key={`project_tag${index}`} className="flex-none mt-2 mr-2">
