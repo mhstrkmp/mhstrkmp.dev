@@ -15,13 +15,13 @@
     },
     {
       "title": "This Website",
-      "description": "I developed this website with Gatsby and Tailwind as I wanted to learn more about the JAMstack. I like the concept of sharing knowledge and learning in public therefore I implemented a blog.",
+      "description": "I developed this website with Gatsby and Tailwind. I love sharing knowledge and learning in public therefore I implemented a blog.",
       "url": "https://github.com/mhstrkmp/mhstrkmp.dev",
       "tags": ["Gatsby", "Tailwind", "JavaScript", "HTML", "CSS"]
     },
     {
       "title": "LIFE-AHEAD.ORG",
-      "description": "This website is also a personal project. The goal of this project is to start a non-profit organization to help parents in grief. Therefore we already ran successfully a crowdfunding campaign. I develepod this website first in WordPress and migrated it later to Chimpify",
+      "description": "A personal project with the goal of starting a non-profit organization to help parents in grief. Therefore we already ran successfully a crowdfunding campaign. I made this website first with WordPress and migrated it later to Chimpify.",
       "url": "https://www.life-ahead.org/",
       "tags": ["HTML", "CSS", "JavaScript", "WordPress", "Chimpify"]
     },

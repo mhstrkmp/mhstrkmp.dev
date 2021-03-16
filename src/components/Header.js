@@ -4,7 +4,7 @@ import { Link } from "gatsby";
 const Header = () => {
   return (
     <div className="container w-full mx-auto">
-      <header className="py-6 md:py-3 mb-12 flex flex-col content-center items-center md:flex-row md:justify-between">
+      <header className="py-6 flex flex-col content-center items-center mt-2 md:flex-row md:justify-between md:py-3 md:mb-12 ">
         <div>
           <Link to="/">
             <h1>mhstrkmp</h1>

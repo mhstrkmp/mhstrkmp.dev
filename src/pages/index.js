@@ -11,12 +11,12 @@ const IndexPage = () => {
           <Hero />
         </section>
         <section>
-          <div className="my-8 text-center space-y-2">
+          <div className="mt-8 mb-12 text-center space-y-2">
             <h1 className="font-semibold tracking-wide uppercase text-md xl:text-xl">
               Projects
             </h1>
             <h2 className="max-w-2xl text-xl text-gray-500 xl:text-xl lg:mx-auto">
-              Here are some of my latest projects.
+              Some projects I worked on recently.
             </h2>
           </div>
           {projects.content.map((project, index) => {

@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="h-screen w-auto flex flex-col items-center justify-center p-6 mx-4 space-y-4 md:mx-0 md:space-x-8 xl:p-12 md:space-y-0 md:flex-row ">
+    <div className="h-screen w-auto flex flex-col items-center justify-center p-6 mx-4 space-y-4 md:mx-0 md:space-x-8 xl:p-12 md:space-y-0 md:flex-row ">
       <picture className="relative flex-none w-40 h-40 rounded-full shadow-xl md:h-44 md:w-44">
         <img
           className="absolute flex-none object-cover w-40 h-40 rounded-full md:h-44 md:w-44"
@@ -26,7 +26,7 @@ const Hero = () => {
           )
         </h1>
         <p className="text-2xl xl:text-3xl xl:leading-snug">
-          I am a <strong className="font-bold">Web Developer</strong> from{" "}
+          <strong className="font-bold">Web Developer</strong> from{" "}
           <span aria-label="Germany">
             <span>Germany</span>
           </span>{" "}
@@ -40,10 +40,20 @@ const Hero = () => {
             {" "}
             React
           </a>{" "}
+          and the{" "}
+          <a
+            href="https://jamstack.org/"
+            className="font-semibold text-indigo-600 hover:text-indigo-400"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" "}
+            Jamstack
+          </a>{" "}
           currently looking for new opportunities
         </p>
       </div>
-    </section>
+    </div>
   );
 };
 
