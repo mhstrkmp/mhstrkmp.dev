@@ -38,7 +38,7 @@ const PostListItem = ({ post }) => {
                   <li key={`post_tag${index}`} className="flex-none mt-2 mr-2">
                     <Link
                       to={`/tag/${tagName}`}
-                      className={`pointer-events-auto inline-block px-2 py-1 rounded-md text-sm text-white font-semibold bg-purple-600 bg-${tagName}`}
+                      className={`transform hover:scale-105 pointer-events-auto inline-block px-2 py-1 rounded-md text-sm text-white font-semibold bg-purple-600 bg-${tagName}`}
                     >
                       {tag}
                     </Link>

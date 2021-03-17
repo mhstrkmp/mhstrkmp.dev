@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container text-center font-mono text-purple-800 w-full mx-auto">
         <div className="flex flex-wrap justify-center space-x-4">
           <a
-            className="px-4 py-2 font-semibold hover:text-purple-600"
+            className="px-4 py-2 font-semibold transform hover:scale-105 hover:text-purple-600"
             href="https://twitter.com/mhstrkmp"
             target="_blank"
             rel="noopener noreferrer"
@@ -16,7 +16,7 @@ const Footer = () => {
             Twitter
           </a>
           <a
-            className="px-4 py-2 font-semibold hover:text-purple-600"
+            className="px-4 py-2 font-semibold transform hover:scale-105 hover:text-purple-600"
             href="https://github.com/mhstrkmp"
             target="_blank"
             rel="noopener noreferrer"
@@ -24,7 +24,7 @@ const Footer = () => {
             GitHub
           </a>
           <a
-            className="px-4 py-2 font-semibold hover:text-purple-600"
+            className="px-4 py-2 font-semibold transform hover:scale-105 hover:text-purple-600"
             href="https://www.linkedin.com/in/mhstrkmp"
             target="_blank"
             rel="noopener noreferrer"
