@@ -12,9 +12,6 @@ const Hero = () => {
           width={176}
           height={176}
           placeholder="blurred"
-          // transformOptions={{
-          //   duotone: { shadow: "#7C3AED", highlight: "#C4B5FD", opacity: 80 },
-          // }}
         />
       </picture>
       <div className="space-y-2">
