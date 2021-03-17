@@ -3,6 +3,9 @@ module.exports = {
     siteUrl: "https://mhstrkmp.dev",
   },
   plugins: [
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     "gatsby-plugin-postcss",
     "gatsby-plugin-sitemap",
     {
@@ -10,6 +13,13 @@ module.exports = {
       options: {
         name: `markdown-pages`,
         path: `${__dirname}/src/content/posts`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images`,
       },
     },
     {

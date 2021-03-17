@@ -1,15 +1,20 @@
 import React from "react";
+import { StaticImage } from "gatsby-plugin-image";
 
 const Hero = () => {
   return (
     <div className="h-auto w-auto flex flex-col items-center justify-center p-6 mx-4 my-12 md:my-40 space-y-4 md:mx-0 md:space-x-8 xl:p-12 md:space-y-0 md:flex-row ">
       <picture className="relative flex-none w-40 h-40 rounded-full shadow-xl md:h-44 md:w-44">
-        <img
+        <StaticImage
           className="absolute flex-none object-cover w-40 h-40 rounded-full md:h-44 md:w-44"
-          src="https://via.placeholder.com/150"
-          alt="Matthias Heisterkamp"
+          src="../images/matthias.jpeg"
+          alt=""
           width={176}
           height={176}
+          placeholder="blurred"
+          // transformOptions={{
+          //   duotone: { shadow: "#7C3AED", highlight: "#C4B5FD", opacity: 80 },
+          // }}
         />
       </picture>
       <div className="space-y-2">
