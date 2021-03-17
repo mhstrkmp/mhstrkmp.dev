@@ -1,4 +1,5 @@
 import React from "react";
+import _ from "lodash";
 
 const ProjectListItem = ({ project }) => {
   return (
@@ -17,7 +18,7 @@ const ProjectListItem = ({ project }) => {
           height={150}
           width={200}
           alt=""
-          className="object-contain"
+          className="object-cover rounded-md"
         />
         <div className="w-80 h-auto md:w-auto md:max-w-4 px-4 py-4">
           <h2 className="text-center md:text-left font-bold pb-1">
@@ -28,10 +29,13 @@ const ProjectListItem = ({ project }) => {
           </p>
           <ul className="flex justify-center md:justify-start flex-wrap">
             {project.tags.map((tag, index) => {
+              const tagName = _.kebabCase(tag);
               return (
                 <li key={`project_tag${index}`} className="flex-none mt-2 mr-2">
-                  <span className="inline-block px-2 py-1 text-sm font-semibold">
-                    #{tag}
+                  <span
+                    className={`inline-block px-2 py-1 text-white text-sm font-semibold rounded-md bg-purple-600 bg-${tagName}`}
+                  >
+                    {tag}
                   </span>
                 </li>
               );

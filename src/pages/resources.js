@@ -2,51 +2,37 @@ import * as React from "react";
 
 const ResourcesPage = () => {
   return (
-    <main className="flex justify-center items-center">
-      <article className="prose">
-        <h1>Hello world!</h1>
-        <h2>A Subheading ...</h2>
+    <main className="flex justify-center items-center px-8">
+      <article className="container prose">
+        <h1>Resources</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
-          architecto ullam nihil soluta ab possimus! Aliquid obcaecati ea, eum a
-          voluptas beatae consequatur voluptatum quis totam, labore delectus aut
-          architecto ut ipsam itaque eaque et minima, assumenda ducimus sequi
-          quidem perferendis temporibus soluta? Veniam id quam consectetur autem
-          molestias officiis deserunt possimus. Incidunt architecto ex
-          laboriosam fugiat beatae dolorum, natus voluptatum consequuntur
-          quibusdam! Repellendus maxime facilis aliquam architecto delectus
-          harum blanditiis, illum esse alias. Officiis laudantium consequatur
-          repellat totam sint, voluptatem ut natus, doloribus, repudiandae ipsum
-          numquam? Voluptatibus aperiam praesentium recusandae ipsam aliquam
-          repudiandae, impedit odio! Aliquam assumenda tempora qui.
+          Some of my favorite tools and resources I'd like to share with you
         </p>
+        <h2>A Subheading</h2>
         <p>
-          Maiores, enim reprehenderit nemo sequi veniam asperiores eos illo
-          optio, libero vel iste sit nostrum sunt voluptatem! Sit qui quod quasi
-          amet ea sint officia. Eius harum doloremque deserunt tenetur placeat
-          quos mollitia accusamus unde. Dolore pariatur aut quisquam fugiat,
-          dicta rem fugit aliquid autem atque tempore expedita quam placeat
-          asperiores alias maxime. Culpa tempore alias deleniti sed aliquid
-          vitae tenetur. Similique optio aspernatur placeat, amet temporibus
-          nemo numquam corporis illum harum perspiciatis aperiam praesentium,
-          explicabo ad! Consequuntur, quisquam laboriosam? Qui repellendus minus
-          at deleniti reiciendis repudiandae placeat cupiditate, dolores
-          exercitationem ipsum repellat porro sed quaerat amet quae voluptas
-          vel.
-        </p>
-        <p>
-          Voluptatum soluta dolore placeat rem inventore ipsum in excepturi
-          quaerat, earum recusandae, impedit natus molestiae, quasi dolor saepe
-          sapiente autem iste. Corrupti in ipsam sint ratione placeat porro,
-          eveniet aliquam praesentium unde dolorem dolor, assumenda molestiae,
-          neque consequuntur at! Saepe dicta perferendis non doloremque
-          corporis! Ea exercitationem ipsa explicabo facere aspernatur repellat
-          saepe, obcaecati iusto odit ab debitis earum corporis veniam,
-          perspiciatis possimus, nesciunt minus sit illo a doloribus in
-          repudiandae placeat iure! Tenetur explicabo, reprehenderit commodi
-          obcaecati optio odio! Aspernatur earum, nesciunt dolorum pariatur quis
-          magni. Tenetur, omnis odio impedit asperiores, ipsum, ratione libero
-          eligendi doloribus quisquam delectus ea!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod sunt hic
+          aperiam harum, debitis voluptatibus repellat deleniti odio distinctio
+          ducimus fugiat sapiente ad adipisci culpa aspernatur molestias unde.
+          Omnis nulla ipsum nesciunt dolor totam? Numquam quidem placeat ducimus
+          eaque totam corrupti quas qui earum corporis, sequi modi iste quos ex
+          accusantium assumenda tempora facilis? Delectus autem ipsa excepturi
+          quo minima quam consequuntur modi cumque, recusandae explicabo
+          inventore harum asperiores numquam. Rem fuga, velit ullam nisi
+          laboriosam ut vel distinctio iste magnam deserunt ex necessitatibus
+          aut quos cupiditate suscipit mollitia praesentium dolorem eveniet ea
+          delectus minima! Nesciunt modi ducimus quod quis molestiae impedit non
+          temporibus in atque placeat numquam laboriosam velit, minima
+          quibusdam, iste, voluptatibus provident? Cupiditate necessitatibus
+          tenetur eos illo similique doloremque blanditiis alias molestias
+          deleniti assumenda earum repellendus quis laborum exercitationem
+          impedit, qui libero voluptatem temporibus tempore minus dolorem.
+          Voluptates eius quis ut voluptate eum cupiditate iure quia. Nesciunt,
+          autem? Nostrum voluptate placeat nisi ducimus accusamus deleniti, at
+          inventore expedita soluta id rerum repudiandae nihil vero, veritatis
+          corporis quas eligendi necessitatibus atque neque cupiditate, sapiente
+          dicta. Error alias, accusantium inventore optio sint laboriosam in?
+          Provident ipsum placeat adipisci libero temporibus natus inventore
+          vitae incidunt, quidem est quod. Exercitationem, dolorem.
         </p>
       </article>
     </main>

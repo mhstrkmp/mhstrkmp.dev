@@ -32,13 +32,15 @@ const PostListItem = ({ post }) => {
             </dl>
             <ul className="flex flex-wrap">
               {post.frontmatter.tags.map((tag, index) => {
+                const tagName = _.kebabCase(tag);
+
                 return (
                   <li key={`post_tag${index}`} className="flex-none mt-2 mr-2">
                     <Link
-                      to={`/tag/${_.kebabCase(tag)}`}
-                      className="pointer-events-auto inline-block px-2 py-1 text-sm font-semibold"
+                      to={`/tag/${tagName}`}
+                      className={`pointer-events-auto inline-block px-2 py-1 rounded-md text-sm text-white font-semibold bg-purple-600 bg-${tagName}`}
                     >
-                      #{tag}
+                      {tag}
                     </Link>
                   </li>
                 );
