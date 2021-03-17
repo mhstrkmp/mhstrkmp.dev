@@ -19,7 +19,7 @@ const Header = () => {
             </li>
             <li className="transform hover:scale-105">
               <Link to="/about" className="hover:text-purple-700">
-                About me
+                About
               </Link>
             </li>
             <li className="transform hover:scale-105">
