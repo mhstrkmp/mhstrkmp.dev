@@ -15,6 +15,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "classnames": "^2.2.6",
     "esm": "^3.2.25",
     "gatsby": "^3.0.0",
     "gatsby-plugin-image": "^1.1.0",
