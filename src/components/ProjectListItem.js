@@ -1,5 +1,7 @@
 import React from "react";
 import _ from "lodash";
+import classNames from "classnames";
+import tagStyles from "../helpers/tagStyles";
 
 const ProjectListItem = ({ project }) => {
   return (
@@ -30,10 +32,15 @@ const ProjectListItem = ({ project }) => {
           <ul className="flex justify-center md:justify-start flex-wrap">
             {project.tags.map((tag, index) => {
               const tagName = _.kebabCase(tag);
+
               return (
                 <li key={`project_tag${index}`} className="flex-none mt-2 mr-2">
                   <span
-                    className={`inline-block px-2 py-1 text-white text-sm font-semibold rounded-md bg-purple-600 bg-${tagName}`}
+                    className={classNames(
+                      "pointer-events-none inline-block px-2 py-1 rounded-md text-sm font-semibold",
+                      tagStyles[tagName].bg,
+                      tagStyles[tagName].text
+                    )}
                   >
                     {tag}
                   </span>

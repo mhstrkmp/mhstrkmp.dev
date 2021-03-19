@@ -7,14 +7,7 @@ module.exports = {
     extend: {
       colors: {
         gray: colors.blueGray,
-        thoughts: "#A855F7",
-        react: "#61dafb",
-        "mongo-db": "#13aa52",
-        "java-script": "#F8DD4A",
-        git: "#f14e32",
-        tailwind: "#22d3ee",
-        gatsby: "#66338B",
-        chimpify: "#8566F2",
+        cyan: colors.cyan,
       },
       typography: (theme) => ({
         DEFAULT: {
