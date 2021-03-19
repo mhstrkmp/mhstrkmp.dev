@@ -42,7 +42,7 @@ const Hero = () => {
             {" "}
             React
           </a>{" "}
-          and{" "}
+          and the{" "}
           <a
             href="https://jamstack.org/"
             className="font-semibold text-indigo-600 hover:text-indigo-400"
@@ -52,7 +52,6 @@ const Hero = () => {
             {" "}
             Jamstack
           </a>
-          , currently looking for new opportunities
         </p>
       </div>
     </div>
