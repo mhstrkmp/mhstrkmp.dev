@@ -16,21 +16,21 @@
     },
     {
       "title": "This Website",
-      "description": "I developed this website with Gatsby and Tailwind. I love sharing knowledge and learning in public therefore I implemented a blog.",
+      "description": "I developed this website with Gatsby and Tailwind. I love sharing knowledge and learning in public. That's why I also implemented a blog.",
       "url": "https://github.com/mhstrkmp/mhstrkmp.dev",
       "imgQuery": "thisWebsiteImage",
       "tags": ["Gatsby", "Tailwind", "JavaScript", "HTML", "CSS"]
     },
     {
       "title": "LIFE-AHEAD.ORG",
-      "description": "A personal project with the goal of starting a non-profit organization to help parents in grief. I made this website first with WordPress and migrated it later to Chimpify.",
+      "description": "A personal project with the goal of starting a non-profit organization to help parents in grief. First done in WordPress then migrated to Chimpify.",
       "url": "https://www.life-ahead.org/",
       "imgQuery": "lifeAheadImage",
       "tags": ["HTML", "CSS", "JavaScript", "WordPress", "Chimpify"]
     },
     {
       "title": "Relaunch M. Münzer GmbH",
-      "description": "Redesign and relaunch of the companys website. Existing content from the old WordPress site was migrated to the new website.",
+      "description": "Redesign and relaunch of the companys website. Existing content from the old WordPress site therefore has to be migrated to the new website.",
       "url": "https://www.muenzeronline.de/",
       "imgQuery": "muenzerImage",
       "tags": ["HTML", "CSS", "JavaScript", "WordPress", "Chimpify"]
