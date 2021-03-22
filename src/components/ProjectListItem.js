@@ -21,7 +21,7 @@ const ProjectListItem = ({ project }) => {
             gatsbyImageData(width: 200, placeholder: BLURRED)
           }
         }
-        thisWebsiteImage: file(relativePath: { eq: "placeholder200x150.png" }) {
+        thisWebsiteImage: file(relativePath: { eq: "mhstrkmp-website.png" }) {
           childImageSharp {
             gatsbyImageData(width: 200, placeholder: BLURRED)
           }
