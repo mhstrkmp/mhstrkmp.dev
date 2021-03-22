@@ -74,5 +74,24 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Matthias Heisterkamp | @mhstrkmp`,
+        short_name: `@mhstrkmp`,
+        start_url: `/`,
+        icon: `src/images/favicon.png`,
+        background_color: `#fffff`,
+        display: `standalone`,
+      },
+    },
+    {
+      resolve: "gatsby-plugin-offline",
+      options: {
+        workboxConfig: {
+          globPatterns: ["**/favicon*"],
+        },
+      },
+    },
   ],
 };
