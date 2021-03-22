@@ -1,9 +1,41 @@
 import React from "react";
+import { useStaticQuery, graphql } from "gatsby";
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import _ from "lodash";
 import classNames from "classnames";
 import tagStyles from "../helpers/tagStyles";
 
 const ProjectListItem = ({ project }) => {
+  const data = useStaticQuery(
+    graphql`
+      query ProjectImageQuery {
+        lifeAheadImage: file(relativePath: { eq: "life-ahead.png" }) {
+          childImageSharp {
+            gatsbyImageData(width: 200, placeholder: BLURRED)
+          }
+        }
+        blueCollarRocketImage: file(
+          relativePath: { eq: "blue-collar-rocket.png" }
+        ) {
+          childImageSharp {
+            gatsbyImageData(width: 200, placeholder: BLURRED)
+          }
+        }
+        thisWebsiteImage: file(relativePath: { eq: "placeholder200x150.png" }) {
+          childImageSharp {
+            gatsbyImageData(width: 200, placeholder: BLURRED)
+          }
+        }
+        muenzerImage: file(relativePath: { eq: "muenzer.png" }) {
+          childImageSharp {
+            gatsbyImageData(width: 200, placeholder: BLURRED)
+          }
+        }
+      }
+    `
+  );
+  const image = getImage(data[project.imgQuery]);
+
   return (
     <article className="relative inline-block flex flex-col justify-between py-6 px-4 text-gray-900 rounded-md outline-none group hover:bg-gray-100 hover:text-gray-700 focus:bg-gray-100 focus:shadow-sm focus:text-gray-700">
       {/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
@@ -15,11 +47,11 @@ const ProjectListItem = ({ project }) => {
         className="absolute top-0 bottom-0 left-0 right-0"
       ></a>
       <div className="relative z-10 space-x-4 flex flex-col md:flex-row justify-center items-center pointer-events-none">
-        <img
-          src="https://via.placeholder.com/200x150"
-          height={150}
-          width={200}
+        <GatsbyImage
+          image={image}
           alt=""
+          width={200}
+          height={150}
           className="object-cover rounded-md"
         />
         <div className="w-80 h-auto md:w-auto md:max-w-4 px-4 py-4">
