@@ -5,9 +5,8 @@ const FourOFourPage = () => {
   return (
     <main className="container mx-auto prose text-center">
       <h1>Error 404</h1>
-      <picture className="">
+      <picture>
         <StaticImage
-          className="flex-none object-cover rounded-md"
           src="../images/muhammad-ali.jpeg"
           alt=""
           width={600}
