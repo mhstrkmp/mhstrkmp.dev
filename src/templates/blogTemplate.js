@@ -5,7 +5,7 @@ export default function Template({ data }) {
   const { markdownRemark } = data;
   const { frontmatter, html } = markdownRemark;
   return (
-    <main className="flex justify-center items-center px-8">
+    <main className="flex justify-center items-center">
       <article className="container prose prose-purple">
         <span>
           <time dateTime={frontmatter.date}>{frontmatter.date}</time>

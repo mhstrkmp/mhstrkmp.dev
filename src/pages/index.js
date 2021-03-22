@@ -10,11 +10,11 @@ const IndexPage = () => {
         <section>
           <Hero />
         </section>
-        <section className="mt-8 mb-12 text-center space-y-2">
+        <section className="mt-8 mb-12 space-y-2 text-center">
           <h1 className="text-purple-800 font-semibold tracking-wide uppercase text-2xl xl:text-3xl">
             Projects
           </h1>
-          <h2 className="max-w-2xl text-xl text-gray-600 xl:text-xl lg:mx-auto pb-6">
+          <h2 className="max-w-2xl text-xl text-gray-600 xl:text-xl mx-auto pb-6">
             Some projects I worked on recently.
           </h2>
           {projects.content.map((project, index) => {

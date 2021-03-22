@@ -37,7 +37,7 @@ const ProjectListItem = ({ project }) => {
   const image = getImage(data[project.imgQuery]);
 
   return (
-    <article className="relative inline-block flex flex-col justify-between py-6 px-4 text-gray-900 rounded-md outline-none group hover:bg-gray-100 hover:text-gray-700 focus:bg-gray-100 focus:shadow-sm focus:text-gray-700">
+    <article className="mx-auto relative inline-block flex flex-col justify-between py-6 px-4 text-gray-900 rounded-md outline-none group hover:bg-gray-100 hover:text-gray-700 focus:bg-gray-100 focus:shadow-sm focus:text-gray-700">
       {/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
       <a
         href={project.url}
