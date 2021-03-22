@@ -81,7 +81,7 @@ module.exports = {
         short_name: `@mhstrkmp`,
         start_url: `/`,
         icon: `src/images/favicon.png`,
-        background_color: `#fffff`,
+        background_color: `white`,
         theme_color: `#7C3AED`,
         display: `standalone`,
       },
