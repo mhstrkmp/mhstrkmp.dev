@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: "@mhstrkmp",
-    titleTemplate: "%s  | Matthias Heisterkamp",
+    title: "Matthias Heisterkamp",
+    titleTemplate: "%s  | @mhstrkmp",
     description:
       "Web Developer from Germany creating websites & apps using React and the Jamstack.",
     url: "https://mhstrkmp.dev",
     siteUrl: "https://mhstrkmp.dev",
-    image: "/images/matthias.jpeg",
+    image: "/images/mhstrkmp-website.png",
     twitterUsername: "@mhstrkmp",
   },
   plugins: [
