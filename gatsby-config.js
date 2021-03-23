@@ -1,6 +1,12 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://mhstrkmp.dev",
+    title: "@mhstrkmp",
+    titleTemplate: "%s  | Matthias Heisterkamp",
+    description:
+      "Web Developer from Germany creating websites & apps using React and the Jamstack.",
+    url: "https://mhstrkmp.dev",
+    image: "/images/matthias.jpeg",
+    twitterUsername: "@mhstrkmp",
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -8,6 +14,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     "gatsby-plugin-postcss",
     "gatsby-plugin-sitemap",
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

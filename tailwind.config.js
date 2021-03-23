@@ -6,13 +6,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        gray: colors.blueGray,
         cyan: colors.cyan,
       },
       typography: (theme) => ({
         DEFAULT: {
           css: {
-            color: theme("colors.blueGray.800"),
             h1: {
               color: theme("colors.purple.800"),
             },
