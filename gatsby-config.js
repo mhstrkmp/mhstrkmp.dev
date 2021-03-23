@@ -6,7 +6,7 @@ module.exports = {
       "Web Developer from Germany creating websites & apps using React and the Jamstack.",
     url: "https://mhstrkmp.dev",
     siteUrl: "https://mhstrkmp.dev",
-    image: "/images/mhstrkmp-website.png",
+    image: "/images/og-image.png",
     twitterUsername: "@mhstrkmp",
   },
   plugins: [
