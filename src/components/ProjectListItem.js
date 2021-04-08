@@ -53,7 +53,7 @@ const ProjectListItem = ({ project }) => {
           width={200}
           height={150}
           imgClassName="z-0"
-          className="rounded-md z-10"
+          className="rounded-md shadow-xl z-10"
         />
         <div className="w-80 h-auto md:w-auto md:max-w-4 px-4 py-4">
           <h2 className="text-purple-800 text-center md:text-left font-bold pb-1">
