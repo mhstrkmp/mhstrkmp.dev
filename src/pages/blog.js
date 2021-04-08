@@ -1,13 +1,13 @@
 import React from "react";
 import { graphql } from "gatsby";
 import PostListItem from "../components/PostListItem";
-import SEO from "../components/SEO";
+import Seo from "../components/Seo";
 
 const BlogPage = ({ data }) => {
   const { edges: posts } = data.allMarkdownRemark;
   return (
     <>
-      <SEO title="Blog" />
+      <Seo title="Blog" />
       <main>
         {posts
           .filter((post) => post.node.frontmatter.title.length > 0)

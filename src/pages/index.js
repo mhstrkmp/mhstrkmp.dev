@@ -1,13 +1,13 @@
 import React from "react";
 import Hero from "../components/Hero";
 import ProjectListItem from "../components/ProjectListItem";
-import SEO from "../components/SEO";
+import Seo from "../components/Seo";
 import projects from "../content/Projects.json";
 
 const IndexPage = () => {
   return (
     <>
-      <SEO />
+      <Seo />
       <main>
         <section>
           <Hero />

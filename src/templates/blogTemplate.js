@@ -1,13 +1,13 @@
 import React from "react";
 import { graphql } from "gatsby";
-import SEO from "../components/SEO";
+import Seo from "../components/Seo";
 
 export default function Template({ data }) {
   const { markdownRemark } = data;
   const { frontmatter, html } = markdownRemark;
   return (
     <>
-      <SEO
+      <Seo
         title={frontmatter.title}
         description={frontmatter.description}
         article={true}

@@ -1,11 +1,11 @@
 import * as React from "react";
 import { StaticImage } from "gatsby-plugin-image";
-import SEO from "../components/SEO";
+import Seo from "../components/Seo";
 
 const FourOFourPage = () => {
   return (
     <>
-      <SEO title="Page not found" />
+      <Seo title="Page not found" />
       <main className="container mx-auto prose text-center">
         <h1>Error 404</h1>
         <picture>

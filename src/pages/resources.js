@@ -1,10 +1,10 @@
 import * as React from "react";
-import SEO from "../components/SEO";
+import Seo from "../components/Seo";
 
 const ResourcesPage = () => {
   return (
     <>
-      <SEO title="Resources" article={true} />
+      <Seo title="Resources" article={true} />
       <main className="flex justify-center items-center px-8">
         <article className="container prose">
           <h1>Resources</h1>
