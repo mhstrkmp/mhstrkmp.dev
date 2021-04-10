@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Link } from "gatsby";
 import Seo from "../components/Seo";
 
 const AboutPage = () => {
@@ -7,51 +8,61 @@ const AboutPage = () => {
       <Seo title="About me" article={true} />
       <main className="flex justify-center items-center">
         <article className="prose">
-          <h1>Hello world!</h1>
-          <h2>A Subheading ...</h2>
+          <h1>
+            Hey there, I'm Matthias{" "}
+            <span role="img" aria-label="waving hand emoji">
+              👋
+            </span>
+          </h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
-            architecto ullam nihil soluta ab possimus! Aliquid obcaecati ea, eum
-            a voluptas beatae consequatur voluptatum quis totam, labore delectus
-            aut architecto ut ipsam itaque eaque et minima, assumenda ducimus
-            sequi quidem perferendis temporibus soluta? Veniam id quam
-            consectetur autem molestias officiis deserunt possimus. Incidunt
-            architecto ex laboriosam fugiat beatae dolorum, natus voluptatum
-            consequuntur quibusdam! Repellendus maxime facilis aliquam
-            architecto delectus harum blanditiis, illum esse alias. Officiis
-            laudantium consequatur repellat totam sint, voluptatem ut natus,
-            doloribus, repudiandae ipsum numquam? Voluptatibus aperiam
-            praesentium recusandae ipsam aliquam repudiandae, impedit odio!
-            Aliquam assumenda tempora qui.
+            Thanks for visiting my website!{" "}
+            <strong>
+              I'm a Web Developer from Germany creating websites &amp; apps
+              using React and the Jamstack.
+            </strong>
           </p>
           <p>
-            Maiores, enim reprehenderit nemo sequi veniam asperiores eos illo
-            optio, libero vel iste sit nostrum sunt voluptatem! Sit qui quod
-            quasi amet ea sint officia. Eius harum doloremque deserunt tenetur
-            placeat quos mollitia accusamus unde. Dolore pariatur aut quisquam
-            fugiat, dicta rem fugit aliquid autem atque tempore expedita quam
-            placeat asperiores alias maxime. Culpa tempore alias deleniti sed
-            aliquid vitae tenetur. Similique optio aspernatur placeat, amet
-            temporibus nemo numquam corporis illum harum perspiciatis aperiam
-            praesentium, explicabo ad! Consequuntur, quisquam laboriosam? Qui
-            repellendus minus at deleniti reiciendis repudiandae placeat
-            cupiditate, dolores exercitationem ipsum repellat porro sed quaerat
-            amet quae voluptas vel.
+            Before becoming a Web Developer I spent many years in craftsmanship.
+            I worked as a plumbing and heating installer. In the last few years
+            my focus was about planning and organizing a huge variety of
+            projects.
           </p>
           <p>
-            Voluptatum soluta dolore placeat rem inventore ipsum in excepturi
-            quaerat, earum recusandae, impedit natus molestiae, quasi dolor
-            saepe sapiente autem iste. Corrupti in ipsam sint ratione placeat
-            porro, eveniet aliquam praesentium unde dolorem dolor, assumenda
-            molestiae, neque consequuntur at! Saepe dicta perferendis non
-            doloremque corporis! Ea exercitationem ipsa explicabo facere
-            aspernatur repellat saepe, obcaecati iusto odit ab debitis earum
-            corporis veniam, perspiciatis possimus, nesciunt minus sit illo a
-            doloribus in repudiandae placeat iure! Tenetur explicabo,
-            reprehenderit commodi obcaecati optio odio! Aspernatur earum,
-            nesciunt dolorum pariatur quis magni. Tenetur, omnis odio impedit
-            asperiores, ipsum, ratione libero eligendi doloribus quisquam
-            delectus ea!
+            I got more and more frustrated about the lack of great software for
+            businesses in craftsmanship. Therefore, I decided to follow my
+            passion a become a Web Developer.
+          </p>
+          <p>
+            I took part at an outstanding Web Development Bootcamp at{" "}
+            <a
+              className="text-purple-800 hover:text-purple-700"
+              href="https://www.neuefische.de/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              neue fische
+            </a>{" "}
+            where I learned the fundamentals to really keep going
+            professionally.
+          </p>
+          <p>
+            Currently, I'm working at,{" "}
+            <a
+              className="text-purple-800 hover:text-purple-700"
+              href="https://plancraft.de/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Plancraft
+            </a>{" "}
+            developing the software I missed for such a long time.
+          </p>
+          <p>
+            If you want to take part at my journey take a look at my{" "}
+            <Link to="/blog" className="text-purple-800 hover:text-purple-700">
+              Blog
+            </Link>
+            , where I share my thoughts and learnings.
           </p>
         </article>
       </main>
