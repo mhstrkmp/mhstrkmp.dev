@@ -30,7 +30,7 @@ const AboutPage = () => {
           <p>
             I got more and more frustrated about the lack of great software for
             businesses in craftsmanship. Therefore, I decided to follow my
-            passion a become a Web Developer.
+            passion and become a Web Developer.
           </p>
           <p>
             I took part at an outstanding Web Development Bootcamp at{" "}
