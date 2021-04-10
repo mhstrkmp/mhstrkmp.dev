@@ -3,7 +3,7 @@ import { StaticImage } from "gatsby-plugin-image";
 
 const Hero = () => {
   return (
-    <div className="h-auto w-auto flex flex-col items-center justify-center p-6 mx-4 my-12 md:my-40 space-y-4 md:mx-0 md:space-x-8 xl:p-12 md:space-y-0 md:flex-row ">
+    <div className="h-auto w-auto flex flex-col items-center justify-center p-6 mx-4 my-0 md:my-40 space-y-4 md:mx-0 md:space-x-8 xl:p-12 md:space-y-0 md:flex-row ">
       <StaticImage
         className="relative flex-none w-40 h-40 rounded-full shadow-xl md:h-44 md:w-44 z-10"
         imgClassName="absolute flex-none w-40 h-40 rounded-full md:h-44 md:w-44 z-0"

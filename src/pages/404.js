@@ -10,6 +10,7 @@ const FourOFourPage = () => {
         <h1>Error 404</h1>
         <picture>
           <StaticImage
+            imgClassName="shadow-xl"
             src="../images/muhammad-ali.jpeg"
             alt=""
             width={600}

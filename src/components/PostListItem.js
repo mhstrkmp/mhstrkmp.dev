@@ -4,7 +4,7 @@ import TagList from "./TagList";
 
 const PostListItem = ({ post }) => {
   return (
-    <article className="relative inline-block p-4 text-gray-900 rounded-md outline-none group hover:bg-gray-100 hover:text-gray-700 focus:bg-gray-100 focus:shadow-sm focus:text-gray-700">
+    <article className="relative inline-block p-4 text-gray-900 rounded-md outline-none group hover:bg-purple-50 hover:text-gray-700 focus:bg-purple-50 focus:shadow-sm focus:text-gray-700">
       {/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
       <Link
         to={post.frontmatter.slug}
