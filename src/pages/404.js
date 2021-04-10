@@ -6,7 +6,7 @@ const FourOFourPage = () => {
   return (
     <>
       <Seo title="Page not found" />
-      <main className="container mx-auto prose text-center">
+      <main className="container mx-auto prose text-center mt-6">
         <h1>Error 404</h1>
         <picture>
           <StaticImage

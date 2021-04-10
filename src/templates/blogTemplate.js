@@ -12,7 +12,7 @@ export default function Template({ data }) {
         description={frontmatter.description}
         article={true}
       />
-      <main className="flex justify-center items-center">
+      <main className="flex justify-center items-center mt-6">
         <article className="container prose prose-purple">
           <span>
             <time dateTime={frontmatter.date}>{frontmatter.date}</time>

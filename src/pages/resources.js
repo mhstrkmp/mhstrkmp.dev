@@ -5,7 +5,7 @@ const ResourcesPage = () => {
   return (
     <>
       <Seo title="Resources" article={true} />
-      <main className="flex justify-center items-center px-8">
+      <main className="flex justify-center items-center px-8 mt-6">
         <article className="container prose">
           <h1>Resources</h1>
           <p>

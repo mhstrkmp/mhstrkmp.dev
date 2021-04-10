@@ -6,7 +6,7 @@ const AboutPage = () => {
   return (
     <>
       <Seo title="About me" article={true} />
-      <main className="flex justify-center items-center">
+      <main className="flex justify-center items-center mt-6">
         <article className="prose">
           <h1>
             Hey there, I'm Matthias{" "}

@@ -8,7 +8,7 @@ const BlogPage = ({ data }) => {
   return (
     <>
       <Seo title="Blog" />
-      <main>
+      <main className="mt-6">
         {posts
           .filter((post) => post.node.frontmatter.title.length > 0)
           .map(({ node: post }) => {
