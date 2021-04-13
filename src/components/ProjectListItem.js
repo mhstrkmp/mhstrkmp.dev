@@ -46,7 +46,7 @@ const ProjectListItem = ({ project }) => {
         aria-label="link to project"
         className="absolute top-0 bottom-0 left-0 right-0"
       ></a>
-      <div className="relative z-10 space-x-4 flex flex-col md:flex-row justify-center items-center pointer-events-none">
+      <div className="relative z-10 md:space-x-4 flex flex-col md:flex-row justify-center items-center pointer-events-none">
         <GatsbyImage
           image={image}
           alt=""
