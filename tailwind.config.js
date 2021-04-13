@@ -17,6 +17,9 @@ module.exports = {
             h2: {
               color: theme("colors.purple.700"),
             },
+            h3: {
+              color: theme("colors.purple.600"),
+            },
           },
         },
       }),
