@@ -56,10 +56,10 @@ const ProjectListItem = ({ project }) => {
           className="rounded-md shadow-xl z-10"
         />
         <div className="w-80 h-auto md:w-auto md:max-w-4 px-4 py-4">
-          <h2 className="text-purple-800 text-center md:text-left font-bold pb-1">
+          <h2 className="text-purple-800 text-center md:text-left text-lg font-mono font-bold pb-1">
             {project.title}
           </h2>
-          <p className="text-left text-lg tracking-tight text-gray-800">
+          <p className="text-justify md:text-left text-lg tracking-tight text-gray-800 px-2 md:px-0">
             {project.description}
           </p>
           <ul className="flex justify-center md:justify-start flex-wrap">
