@@ -4,7 +4,7 @@ import { Link } from "gatsby";
 const Header = () => {
   return (
     <div className="container w-full mx-auto">
-      <header className="font-mono text-purple-800 space-y-2 pt-6 pb-2 flex flex-col content-center items-center mt-2 md:text-lg md:flex-row md:justify-between md:py-3 md:mb-12 ">
+      <header className="font-mono text-xl text-purple-800 space-y-2 pt-6 pb-2 flex flex-col content-center items-center mt-2 md:text-lg md:flex-row md:justify-between md:py-3 md:mb-12 ">
         <div className="tracking-wide capitalize">
           <Link to="/" className="hover:text-purple-700">
             <h1 className="transform hover:scale-105">{"<mhstrkmp />"}</h1>
