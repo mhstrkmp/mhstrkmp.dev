@@ -24,13 +24,13 @@ const AboutPage = () => {
           <p>
             Before becoming a Web Developer I spent many years in craftsmanship.
             I worked as a plumbing and heating installer. In the last few years
-            my focus was about planning and organizing a huge variety of
+            my work mostly was about planning and organizing a huge variety of
             projects.
           </p>
           <p>
             I got more and more frustrated about the lack of great software for
-            businesses in craftsmanship. Therefore, I decided to follow my
-            passion and become a Web Developer.
+            businesses in craftsmanship. I want to change this and therefore
+            followed my passion to become a Web Developer.
           </p>
           <p>
             I took part at an outstanding Web Development Bootcamp at{" "}
@@ -56,6 +56,10 @@ const AboutPage = () => {
               Plancraft
             </a>{" "}
             developing the software I missed for such a long time.
+          </p>
+          <p>
+            Besides from hacking, I love to spend time with family and friends,
+            playing guitar, being outside, traveling, sailing, bouldering ...
           </p>
           <p>
             If you want to take part at my journey take a look at my{" "}
