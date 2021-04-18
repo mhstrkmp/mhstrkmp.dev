@@ -1,0 +1,26 @@
+{
+  "tools": [
+    {
+      "resourceName": "Tool 1",
+      "resourceUrl": "https://www.example.com",
+      "resourceDescrition": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+    },
+    {
+      "resourceName": "Tool 2",
+      "resourceUrl": "https://www.example.com",
+      "resourceDescrition": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+    }
+  ],
+  "design": [
+    {
+      "resourceName": "Design Tool 1",
+      "resourceUrl": "https://www.example.com",
+      "resourceDescrition": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+    },
+    {
+      "resourceName": "Design Tool 2",
+      "resourceUrl": "https://www.example.com",
+      "resourceDescrition": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+    }
+  ]
+}
