@@ -14,7 +14,7 @@ const ResourcesPage = () => {
             Resources
           </h1>
           <p className="text-justify md:text-center">
-            Some of my favorite tools and resources I'd like to share with you
+            Some tools and resources I'd like to share with you.
           </p>
           {categories.map((category, index) => {
             return (

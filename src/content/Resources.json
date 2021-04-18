@@ -1,26 +1,70 @@
 {
-  "tools": [
+  "🚑 help": [
     {
-      "resourceName": "Tool 1",
-      "resourceUrl": "https://www.example.com",
-      "resourceDescrition": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+      "resourceName": "Oh Shit, Git!?!",
+      "resourceUrl": "https://ohshitgit.com/",
+      "resourceDescrition": "Ever screwed up git and didn't even know what to google?"
     },
     {
-      "resourceName": "Tool 2",
-      "resourceUrl": "https://www.example.com",
-      "resourceDescrition": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+      "resourceName": "DEVHINTS.IO",
+      "resourceUrl": "https://devhints.io/",
+      "resourceDescrition": "A huge collection of useful cheatsheets from Ansible to Zsh."
     }
   ],
-  "design": [
+  "🛠 tools": [
     {
-      "resourceName": "Design Tool 1",
-      "resourceUrl": "https://www.example.com",
-      "resourceDescrition": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+      "resourceName": "gitmoji",
+      "resourceUrl": "https://gitmoji.dev/",
+      "resourceDescrition": "An emoji guide for your commit messages."
     },
     {
-      "resourceName": "Design Tool 2",
-      "resourceUrl": "https://www.example.com",
-      "resourceDescrition": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+      "resourceName": "Storybook",
+      "resourceUrl": "https://storybook.js.org/",
+      "resourceDescrition": "Develop UI components in isolation for React, Vue, Angular, and more. It makes building stunning UIs organized and efficient."
+    },
+    {
+      "resourceName": "lint-staged",
+      "resourceUrl": "https://github.com/okonet/lint-staged",
+      "resourceDescrition": "Run linters against staged git files and don't let 💩 slip into your code base!"
+    }
+  ],
+  "🎨 design": [
+    {
+      "resourceName": "styled-components",
+      "resourceUrl": "https://styled-components.com/",
+      "resourceDescrition": "Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress"
+    },
+    {
+      "resourceName": "tailwindcss",
+      "resourceUrl": "https://tailwindcss.com/",
+      "resourceDescrition": "A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup."
+    },
+    {
+      "resourceName": "Type Scale",
+      "resourceUrl": "https://type-scale.com/",
+      "resourceDescrition": "A Visual Type Scale Editor that helps you choosing the right font properties."
+    }
+  ],
+  "📚 Articles / Websites": [
+    {
+      "resourceName": "JAVASCRIPT.INFO",
+      "resourceUrl": "https://javascript.info/",
+      "resourceDescrition": "The Modern JavaScript Tutorial was created in 2007 by Ilya Kantor, and regularly updated since then. New chapters were added, outdated ones - removed, to stay fresh. The PDF version is about 1300 pages, starting from the beginning, and then to advanced topics."
+    },
+    {
+      "resourceName": "Jamstack",
+      "resourceUrl": "https://jamstack.org/",
+      "resourceDescrition": "Comprehensive guide for building Jamstack sites and home of the global Jamstack community."
+    },
+    {
+      "resourceName": "CSS-Tricks",
+      "resourceUrl": "https://css-tricks.com/",
+      "resourceDescrition": "Lots of well written articles mostly about styling and CSS."
+    },
+    {
+      "resourceName": "DEVHINTS.IO",
+      "resourceUrl": "https://devhints.io/",
+      "resourceDescrition": "A huge collection of useful cheatsheets from Ansible to Zsh."
     }
   ]
 }
