@@ -20,7 +20,7 @@ const PostListItem = ({ post }) => {
             </p>
           </div>
         </div>
-        <div className="flex items-center pt-4 space-x-6 border-t border-gray-200 xl:pl-4 xl:pt-0 xl:space-x-0 xl:border-l xl:border-t-0">
+        <div className="flex items-center pt-4 space-x-6 border-t border-purple-100 xl:pl-4 xl:pt-0 xl:space-x-0 xl:border-l xl:border-t-0">
           <div>
             <dl>
               <dt className="sr-only">Published on</dt>
