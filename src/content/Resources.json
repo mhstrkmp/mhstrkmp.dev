@@ -66,5 +66,17 @@
       "resourceUrl": "https://devhints.io/",
       "resourceDescrition": "A huge collection of useful cheatsheets from Ansible to Zsh."
     }
+  ],
+  "🎧 Podcasts": [
+    {
+      "resourceName": "Podcast 1",
+      "resourceUrl": "https://www.example.com/",
+      "resourceDescrition": "Some text about the podcast"
+    },
+    {
+      "resourceName": "Podcast 2",
+      "resourceUrl": "https://www.example.com/",
+      "resourceDescrition": "Some text about the podcast"
+    }
   ]
 }

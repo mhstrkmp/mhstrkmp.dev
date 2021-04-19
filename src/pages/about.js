@@ -15,22 +15,18 @@ const AboutPage = () => {
             </span>
           </h1>
           <p>
-            Thanks for visiting my website!{" "}
-            <strong>
-              I'm a Web Developer from Germany creating websites &amp; apps
-              using React and the Jamstack.
-            </strong>
+            Thanks for visiting my website and your interest in me and my work!
           </p>
           <p>
-            Before becoming a Web Developer I spent many years in craftsmanship.
-            I worked as a plumbing and heating installer. In the last few years
-            my work mostly was about planning and organizing a huge variety of
+            Before becoming a Web Developer I spent many years in handicraft. I
+            worked as a plumbing and heating installer. In the last few years my
+            work mostly was about planning and organizing a huge variety of
             projects.
           </p>
           <p>
             I got more and more frustrated about the lack of great software for
-            businesses in craftsmanship. I want to change this and therefore
-            followed my passion to become a Web Developer.
+            businesses in handicraft. I want to change this, and for this I
+            decided to follow my passion about Web Development.
           </p>
           <p>
             I took part at an outstanding Web Development Bootcamp at{" "}
@@ -42,8 +38,7 @@ const AboutPage = () => {
             >
               neue fische
             </a>{" "}
-            where I learned the fundamentals to really keep going
-            professionally.
+            where I learned the fundamentals to become a professional.
           </p>
           <p>
             Currently, I'm working at,{" "}
