@@ -14,7 +14,7 @@ const Hero = () => {
         placeholder="blurred"
       />
       <div className="space-y-2">
-        <h1>
+        <h1 className="font-sans">
           Hey, I&apos;m Matthias (
           <a
             className="text-purple-800 hover:text-purple-700"
